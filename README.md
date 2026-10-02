@@ -1,33 +1,27 @@
-# Cyberpunk-Sim
-An open-world hybrid of a city simulator and 1st/3rd-person RPG set in a dystopian cyberpunk metropolis infected by eldritch magic. Built with Unity (URP &amp; C#).
 # Neon Hex: Cyber-Arcana City Sim
 
-An experimental open-world hybrid merging **deep district simulation** with **ground-level 1st/3rd-person gameplay**, built in **Unity (URP & C#)**. 
+A high-fidelity open-world hybrid combining **deep district simulation** with **immersive ground-level 1st/3rd-person gameplay**, built in **Unity (HDRP / C#)**.
 
-Set in a decaying cyberpunk metropolis where rogue megacorporations accidentally punctured the veil to an occult dimension, the city runs on a volatile mix of high-tech infrastructure and eldritch curses.
+Set in a hyper-realistic, decaying cyberpunk metropolis contaminated by dark eldritch anomalies. Built with a focus on **photorealistic PBR materials, volumetric lighting, and realistic urban decay**—strictly moving away from low-poly aesthetics.
 
 ---
 
 ## 🔮 Core Features
 
-* **Ground & Macro Gameplay:** Seamlessly switch between micro-actions (exploring alleys, running street-level jobs, black-market trades) and macro influence (districts, economy, faction standing).
-* **The Curse System:** A dynamic corruption engine. As a district's arcane corruption spikes, visual glitches, occult weather, and mutated cybernetic hazards emerge.
-* **Hybrid Augmentations:** Enhance your character with illegal cyberware infused with dark magic—delivering immense power at the cost of neurological and physical stability.
-* **Modular City Architecture:** Chunk-based district handling, dynamic NPC routines, and event-driven simulation.
+* **High-Fidelity Visuals:** Built for realistic PBR pipelines—featuring wet pavement reflections, volumetric neon fog, high-detail cybernetics, and dynamic occult corruption decals.
+* **Dual-Layer Gameplay:** Seamlessly alternate between street-level tactical exploration and macro district administration (faction tensions, resource grids, corruption suppression).
+* **Dynamic Curse Corruption:** Arcane anomalies physically warp the city through dynamic shader manipulation, screen-space distortions, and occult weather patterns.
+* **Modular Urban Architecture:** Optimized for high-density realistic assets using LOD-friendly chunk streaming and GPU instancing.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🛠️ Tech Stack
 
 * **Engine:** Unity 6 / LTS
-* **Render Pipeline:** Universal Render Pipeline (URP)
+* **Render Pipeline:** High Definition Render Pipeline (HDRP) / Advanced URP (PBR, Decals, Deferred)
+* **Scripting:** C# (Decoupled, ScriptableObject-driven architecture)
 * **Input:** Unity New Input System
-* **Architecture:** Decoupled, ScriptableObject-driven systems and event-based architecture for minimal overhead.
+* **Shaders:** Shader Graph & VFX Graph (Dynamic Eldritch Glitches, Material Blending)
 
 ---
 
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/<repo-name>.git
